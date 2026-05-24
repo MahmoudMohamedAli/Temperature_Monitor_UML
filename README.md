@@ -112,6 +112,7 @@ temperature-monitor/
 ```mermaid
 classDiagram
     class ISensor {
+        <>
         +enable() bool
         +disable() bool
         +isactive() bool
